@@ -32,6 +32,15 @@
              <ul id="cart-items-list"></ul>
              <button id="cancel-btn">Cancel</button>
              <button id="checkout-btn">Checkout</button>
+
+             <script>
+                document.getElementById('checkout-btn').addEventListener('click', function() {
+                    // Set a flag in localStorage
+                    localStorage.setItem('showOrderForm', 'true');
+                    // Redirect to the index.html page
+                    window.location.href = 'index.html';
+                });
+            </script>
          </div>
        </div>
      </div>
@@ -2030,12 +2039,16 @@
 
         document.getElementById('checkout-btn').addEventListener('click', () => {
             if (cart.length > 0) {
-                alert('Proceeding to checkout...');
+                document.getElementById('orderFormPopup').style.display = 'flex';
                 // Implement checkout logic here
             } else {
                 alert('Your cart is empty.');
             }
         });
+
+        document.getElementById('orderFormClose').addEventListener('click', () => {
+    document.getElementById('orderFormPopup').style.display = 'none';
+});
 
         function updateCartCount() {
             cartCountElement.textContent = cart.length;
@@ -2059,6 +2072,8 @@
             });
         }
     });
+
+
 </script>
 </body>
 </html>

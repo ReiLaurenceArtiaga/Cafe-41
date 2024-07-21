@@ -30,6 +30,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+document.getElementById('checkout-btn').addEventListener('click', function() {
+    localStorage.setItem('checkoutClicked', 'true');
+    window.location.href = 'index.html';
+});
 
 // Show mobile menu
 hamburgerBtn.addEventListener("click", () => {

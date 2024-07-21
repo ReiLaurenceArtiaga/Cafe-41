@@ -276,7 +276,17 @@
         </div>
     </div>
 </div>
+<script>
+    // Check if the popup should be shown
+    if (localStorage.getItem('showOrderForm') === 'true') {
+        document.getElementById('orderFormPopup').style.display = 'flex';
+        localStorage.removeItem('showOrderForm'); // Clear the flag
+    }
 
+    document.getElementById('orderFormClose').addEventListener('click', function() {
+        document.getElementById('orderFormPopup').style.display = 'none';
+    });
+</script>
 <!--Footer-->
     <footer>
         <div class="cont">
@@ -348,15 +358,5 @@
     
         </div>
      </footer>   
-
-     <script>
-        document.getElementById('checkout-btn').addEventListener('click', function() {
-            document.getElementById('orderFormPopup').style.display = 'block';
-        });
-
-        document.getElementById('orderFormClose').addEventListener('click', function() {
-            document.getElementById('orderFormPopup').style.display = 'none';
-        });
-    </script>
 </body>
 </html>
