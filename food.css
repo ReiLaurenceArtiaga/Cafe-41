@@ -1,0 +1,110 @@
+.food{
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #D6C1AB;
+    padding-bottom: 4em;
+}
+
+.quesadilla-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: Poppins;
+    color:#5B3B1C;
+}
+
+.mini-label{
+    color: white;
+    font-size: 19px;
+    font-family: Poppins;
+}
+
+table{
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 1em;
+    width: 50%;  
+    border-collapse: collapse;
+    font-size: 1.5em;
+    color: #5B3B1C;
+    font-weight: bold;
+}
+
+td{
+    width: 30em;
+    padding: 1em 3em;
+    text-wrap: wrap;
+    font-family: Poppins;
+}
+
+.fa-solid.table-button{
+    font-size: 2.3em;
+}
+
+.table-image{
+    width: 30%;
+}
+
+.food-image{
+    width: 30em;
+    height: auto;
+    margin-bottom: 4em;
+}
+
+hr{
+    border: 1px solid #5B3B1C;
+}
+
+@media (width < 1024px){
+    table{
+        padding-top: .5em;
+        width: 40%;  
+        font-size: 1em;
+    }
+
+    .food-image{
+        width: 20em;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    .food{
+        padding-bottom: 2em ;
+    }
+
+    .mini-label{
+        font-size: 15px;
+    }
+}
+
+@media (width < 599px){
+    table{
+        padding-top: .5em;
+        width: 30%;  
+        font-size: .5em;
+    }
+
+    .food-image{
+        width: 10em;
+    }
+
+    h1{
+        font-size: 1em;
+    }
+
+    .food{
+        padding-bottom: 1em ;
+    }
+
+    .mini-label{
+        font-size: 10px;
+    }
+}
