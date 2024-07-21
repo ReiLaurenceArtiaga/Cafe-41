@@ -34,7 +34,7 @@
                     <li><a href="menu">Menu</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">About us</a></li>
-                    <i class="fa-solid fa-utensils" id="order-icon" onclick="window.location.href='menu'"></i>
+                    <i class="fa-solid fa-utensils" onclick="window.location.href='menu'"></i>
                 </ul>
             </div>
            
@@ -245,7 +245,7 @@
     </div>
     
 <!-- Order Form Popup -->
-<div class="order-form-popup" id="orderFormPopup">
+<div class="order-form-popup" id="orderFormPopup" style="display:none;">
     <span class="close-btn material-symbols-rounded" id="orderFormClose">close</span>
     <div class="form-box order">
         <div class="form-details">
@@ -348,5 +348,15 @@
     
         </div>
      </footer>   
+
+     <script>
+        document.getElementById('checkout-btn').addEventListener('click', function() {
+            document.getElementById('orderFormPopup').style.display = 'block';
+        });
+
+        document.getElementById('orderFormClose').addEventListener('click', function() {
+            document.getElementById('orderFormPopup').style.display = 'none';
+        });
+    </script>
 </body>
 </html>

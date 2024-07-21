@@ -30,11 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-//Icon transfer to menu
-function navigateToMenu() {
-    window.location.href = 'menu';
-}
-
 
 // Show mobile menu
 hamburgerBtn.addEventListener("click", () => {
