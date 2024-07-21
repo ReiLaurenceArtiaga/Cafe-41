@@ -1,0 +1,104 @@
+.drinks {
+    font-family: Poppins;
+    background-color: #F8F7F4;
+    padding-bottom: 4em;
+    padding-top: 1em;
+    padding-left: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drinks h1 {
+    color: #5B3B1C;
+    text-align: center;
+}
+
+.classicMilktea-container {
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 160em;
+}
+
+.classicMilktea-card {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #D6C1AB;
+    width: 20em;  
+    border-radius: 1em;
+    padding-bottom: 1em;
+}
+
+.milktea-image {
+    width: 20em;
+}
+
+.milktea-image img {
+    width: 100%;
+}
+
+.classicMilktea-info {
+    align-items: center;
+    display: flex;
+    gap: 4em;
+    color: #5B3B1C;
+}
+
+.classicMilktea-price {
+    display: inline-block;
+}
+
+.classicMilktea-add-btn {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.cart-items {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1em;
+    right: 1em;
+    top: 3em;
+    width: 20em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items h2 {
+    margin-top: 0;
+}
+
+#cancel-btn,
+#checkout-btn {
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+#checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+}

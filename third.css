@@ -1,0 +1,81 @@
+.fullmenu {
+    padding: 2em;
+    background-color: #F8F7F4;
+    font-family: Poppins;
+    text-align: center;
+    flex-direction: column;
+    display: flex; 
+    padding-bottom: 4em;
+}
+
+.the-menu{
+    color: #5B3B1C;
+    font-size: 3em;
+    text-shadow: 2px 2px 10px rgba(132, 96, 45, .5);   
+}
+
+
+
+.label {
+    color: #CBA07B;
+}
+
+.container{
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    }
+    
+ .con-image{
+    width: 30em;
+ }   
+.box {
+    border-radius: 1em;
+    width: 20em;
+    height: 20em;
+    background-color: #AF8561;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2em;
+}
+    
+.hovereffect {  
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    color: #5B3B1C;
+    color: #5B3B1C;
+    background-color: #5B3B1C;
+    opacity: 0;
+    top: -100px;
+    transition: top 0.5s, opacity 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+.box:hover .hovereffect {
+    opacity: 1;
+    top: 0;
+}
+
+.btn {
+  padding: 1em;
+  background-color: white;
+  text-align: none;
+  border-radius: 3em;
+  text-decoration: none;
+  font-family: Poppins;
+  color: #5B3B1C;
+}
+
+.box img {
+  width: 50%;
+  height: auto;
+}

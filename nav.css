@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Sunny;
+    src: url(fonts/Sunny\ Spells\ Basic.ttf);
+}
+
+.main-logo
+{
+    width: 11em;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #CBA07B;
+    padding: 1em;
+    text-align: center; 
+}
+
+.fa-user, .arrow{
+    color: rgb(132, 96, 45) ;
+  width: 1em;
+  height: 1em;
+}
+
+.links{
+  display: flex;
+  gap: 8em;
+  background-color: #fff;
+  width: fit-content;
+  padding: 1em 3em;
+  border-radius: 2em;
+  align-items: center;
+
+}
+
+.links a{
+  text-decoration: none;
+  font-family: Poppins;
+  color: rgb(132, 96, 45) ;
+}
+
+.dish-icon{
+  width: 5em;
+}
+
+.sign-in{
+  font-family: Poppins;
+  text-decoration: none;
+  background:  #5B3B1C;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 100em;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe41</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-PPIZEGYM1v8zp5Py7UjFb79S58UeqCL9pYVnVPURKEqvioPROaVAJKKLzvH2rDnI" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="second.css">
+    <link rel="stylesheet" href="third.css">    
+    <link rel="stylesheet" href="fourth.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar">
+            <span class="hamburger-btn material-symbols-rounded">menu</span>
+            <a href="#" class="logo">
+                
+                    <img src="pics/2.png" class="chef" alt="">
+               
+                <img src="pics/CAFE 41 official logo.png" alt="logo">
+                
+            </a>
+            <div class="menu">
+                <ul class="links">
+                    <span class="close-btn material-symbols-rounded">close</span>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="menu">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About us</a></li>
+                    <i class="fa-solid fa-utensils" id="order-icon"></i>
+                </ul>
+            </div>
+           
+            <button class="login-btn">LOG IN</button>
+        </nav>
+    </header>
+    
+
+<!--Sign In-->
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please log in using your personal information to stay connected with us.</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <a href="#" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become a part of our community, please sign up using your personal information.</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account? 
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--HOme-->
+<div class="first-layer">
+    <div class="tagline">
+        <h1>
+        Your Daily Dose of 41 Delights
+        </h1>
+         <p>
+        Brewtifully serving by yours truly
+         </p>
+        <a href="" class="button">ORDER NOW</a>
+    </div>
+    <img src="pics/1.png" class="cafe-tag">
+
+</div>
+
+<!--Best Sellers-->
+<div class="best-seller">
+    <h3 class="best-menu">OUR MENU</h3>
+    <h1 class="best"> BEST SELLER</h1>
+    <div class="card">
+        <div class="cardimage">
+            <img src="pics/BestSellers/one.jpg" alt="">
+            <h3>OREO COOKIES AND CREAM FRAPPE</h3>
+            <p>
+                Php 115.00  
+            </p>
+        </div>
+        <div class="cardimage">
+            <img src="pics/BestSellers/two.jpg" alt="">
+            <h3>MANGO AND STRAWBERRY FRAPPE</h3>
+            <p>
+                Php 110.00  
+            </p>
+          </div>
+        
+          <div class="cardimage">
+            <img src="pics/BestSellers/three.jpg" alt="">
+            <h3>CHOCO NUTELLA FILLED DONUT</h3>
+            <p>
+                Php 40.00  
+            </p>
+          </div>
+        
+          <div class="cardimage">
+            <img src="pics/BestSellers/four.jpg" alt="">
+            <h3>MILK AND CHOCO ALMOND DONUT</h3>
+            <p>
+                Php 35.00  
+            </p>
+          </div>
+        
+          <div class="cardimage">
+            <img src="pics/BestSellers/five.jpg" alt="">
+            <h3>BANANA CHOCOLATE CHIP MUFFIN</h3>
+            <p>
+                Php 35.00  
+            </p>
+          </div>
+        
+          <div class="cardimage">
+            <img src="pics/BestSellers/six.jpg" alt="">
+            <h3>CLUBHOUSE CHICKEN SANDWICH</h3>
+            <p>
+                Php 125.00  
+            </p>
+          </div>
+        
+          <div class="cardimage">
+            <img src="pics/BestSellers/seven.jpg" alt="">
+            <h3>BEEF NACHOS WITH FRIES</h3>
+            <p>
+                Php 90.00  
+            </p>
+          </div>
+        
+          <div class="cardimage">
+            <img src="pics/BestSellers/eight.jpg" alt="">
+            <h3>CLASSIC CHICKEN WINGS</h3>
+            <p>
+                Php 120.00  
+            </p>
+          </div>
+        </div>
+        </div>
+
+<!--Full Menu(We Offer)-->
+<div class="fullmenu">
+    <h1 class="the-menu">WE OFFER</h1>
+    <div class="container">
+      <div class="box">
+          <img src="pics/BestSellers/food.png" alt="">
+        <h1 class="label">FOODS</h1>
+          <div class="hovereffect">
+        <a href="menu.html" class="btn">EXPLORE NOW</a>
+          </div>
+        </div>
+        
+        
+        <div class="box">
+          <img src="pics/BestSellers/drinks.png" alt="">
+          <h1 class="label">DRINKS</h1>
+            <div class="hovereffect">
+          <a href="menu.html" class="btn">EXPLORE NOW</a>
+            </div>
+          </div>
+    </div>
+  </div>
+
+  <!--Services-->
+  <div class="services">
+    <h3 class="service-sub">OUR SERVICES</h3>
+    <h1 class="service-title">HOW DOES IT WORK?</h1>
+    <div class="services-card">
+      <div class="service-box">
+        <img src="pics/Characters/easytoorder 1.png" alt="">
+        <h2>EASY TO ORDER</h2>
+        <p class="parag">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        </p>
+      </div>
+  
+      <div class="service-box">
+        <img src="pics/Characters/fastdelivery 1.png" alt="">
+        <h2>FAST DELIVERY</h2>
+        <p class="parag">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        </p>
+      </div>
+  
+      <div class="service-box">
+        <img src="pics/Characters/bestquality 1.png" alt="">
+        <h2>HIGH QUALITY</h2>
+        <p class="parag">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        </p>
+      </div>
+    </div>
+    
+<!-- Order Form Popup -->
+<div class="order-form-popup" id="orderFormPopup">
+    <span class="close-btn material-symbols-rounded" id="orderFormClose">close</span>
+    <div class="form-box order">
+        <div class="form-details">
+            <h2>Place Your Order</h2>
+            <p>Fill in the details below to order your favorite items.</p>
+        </div>
+        <div class="form-content">
+            <h2>ORDER FORM</h2>
+            <form action="#">
+                <div class="input-field">
+                    <input type="text" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-field">
+                    <input type="text" required>
+                    <label>Contact Number</label>
+                </div>
+                <div class="input-field">
+                    <input type="text" required>
+                    <label>Address</label>
+                </div>
+                <div class="input-field">
+                    <input type="text" required>
+                    <label>Order Details</label>
+                </div>
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+    <footer>
+        <div class="cont">
+            <div class="frow">
+                  <div class="fcol" id="company">
+                      <img src="pics/logo.png " alt="" class="logo">
+                      <p>
+                        We are specialized to satisfying your cravings.
+                        <br>Try our Cafe 41 services. <br></p>
+                      <div class="social">
+                        <a href="https://www.facebook.com/cafe41ph"><i class="fa-brands fa-facebook"></i></i></a>
+                        <a href="https://www.instagram.com/cafe41ph/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                      </div>
+                  </div>
+    
+    
+                  <div class="fcol" id="services">
+                     <h3>Food Menu</h3>
+                     <div class="flinks">
+                        <a href="#">Coffee</a>
+                        <a href="#">MilkTea</a>
+                        <a href="#">Fruit Soda</a>
+                        <a href="#">Sanwich</a>
+                        <a href="#">Pizza</a>
+                        <a href="#">Chicken Wings</a>
+    
+                     </div>
+                  </div>
+    
+                  <div class="fcol" id="useful-links">
+                     <h3>About Us</h3>
+                     <div class="flinks">
+                        <a href="#">About Cafe41 PH</a>
+                        <a href="#">Services</a>
+                        <a href="#">Our Policy</a>
+                        <a href="#">Franchising</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Help</a>
+                     </div>
+                  </div>
+    
+                  <div class="fcol" id="contact">
+                      <h3>Contact Us</h3>
+                      <div class="contact-details">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                         <p>Km. 41, Pulong Buhangin, <br> Santa Maria, Bulacan
+                        <br>Philippines</p>
+                      </div>
+                      <div class="contact-details">
+                         <i class="fa fa-phone"></i>
+                         <p>0965 742 4812 <br>0926 878 8503</p>
+    
+                      </div>
+                  </div>
+            </div>
+    
+            <div class="frow">
+                  <div class="form">
+                    <form action="">
+
+                        <input type="text" placeholder="Your feedback matters...">
+                        <button><i class="fa-solid fa-paper-plane"></i></button>
+
+                    </form>
+                  </div>
+            </div>
+    
+        </div>
+     </footer>   
+</body>
+</html>
